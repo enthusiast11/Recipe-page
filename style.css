@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Young-serif;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+hr {
+  margin: 15px 0px;
+  background-color: rgb(162, 160, 160);
+}
+h1,
+h2 {
+  font-family: "Young-serif";
+}
+h2 {
+  color: rgb(128, 23, 23);
+}
+article,
+td {
+  font-family: "Outfit";
+  color: rgb(162, 160, 160);
+  margin: 15px 0;
+}
+
+.instruction,
+.ingredients {
+  margin: 0 15px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.main-image {
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}
+.prep {
+  padding: 15px;
+  background-color: rgb(255, 236, 245);
+  border-radius: 10px;
+}
+.prep__header {
+  font-family: "Outfit";
+  font-weight: 300;
+  color: rgb(128, 23, 23);
+}
+.prep__list {
+  padding: 15px;
+}
+li {
+  font-family: "Outfit";
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+li::marker {
+  color: rgb(128, 23, 23);
+}
+table {
+  width: 100%;
+  margin: 15px 0;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid rgb(162, 160, 160);
+  padding: 15px;
+}
+td:nth-last-child(1) {
+  font-weight: bold;
+  color: rgb(128, 23, 23);
+}
